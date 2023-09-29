@@ -1,0 +1,31 @@
+name: compile
+on:
+  push:
+    branches:
+      - main
+jobs:
+  compile:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: release
+      cancel-in-progress: false
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
+          submodules: recursive
+          
+      - name: Compile cv
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: europasscv_en.tex
+          args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode -shell-escape
+
+      - name: Release
+        env:
+          GH_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+        run: |
+          npm install
+          npx semantic-release
