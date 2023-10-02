@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/FilippoVissani/curriculum-vitae/compare/2.0.1...2.0.2) (2023-10-02)
+
+
+### Documentation
+
+* improve bio ([6d20ec1](https://github.com/FilippoVissani/curriculum-vitae/commit/6d20ec168e16bde370b5b74b8f0e76d113d4ff6e))
+
 ## [2.0.1](https://github.com/FilippoVissani/curriculum-vitae/compare/2.0.0...2.0.1) (2023-10-02)
 
 
