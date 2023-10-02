@@ -5,3 +5,16 @@
 *.out
 *.pdf
 *.synctex.gz
+*.toc
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.synctex(busy)
+*.synctex.gz(busy)
+*.pdfsync
+*.ind
+*.ilg
+*.idx
+*.lof
+*.cut
