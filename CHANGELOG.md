@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/FilippoVissani/curriculum-vitae/compare/2.0.0...2.0.1) (2023-10-02)
+
+
+### Bug Fixes
+
+* fix typos ([fada16c](https://github.com/FilippoVissani/curriculum-vitae/commit/fada16c573143d6191721f9c96e2b74c4b5446fc))
+
 ## [2.0.0](https://github.com/FilippoVissani/curriculum-vitae/compare/1.0.0...2.0.0) (2023-10-02)
 
 
