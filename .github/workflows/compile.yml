@@ -20,7 +20,7 @@ jobs:
       - name: Compile cv
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: europasscv_en.tex
+          root_file: main.tex
           args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode -shell-escape
 
       - name: Release
