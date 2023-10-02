@@ -1,3 +1,33 @@
+## [2.0.0](https://github.com/FilippoVissani/curriculum-vitae/compare/1.0.0...2.0.0) (2023-10-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* switch template
+
+### Bug Fixes
+
+* fix latex compilation error ([a93ec83](https://github.com/FilippoVissani/curriculum-vitae/commit/a93ec83a30f2712a94f187e5087b801a177bffe8))
+
+
+### Documentation
+
+* add personal skills ([b76aa97](https://github.com/FilippoVissani/curriculum-vitae/commit/b76aa977ef7f360be8dac1a9fc5b15140a8b9f43))
+* add projects description ([40ef662](https://github.com/FilippoVissani/curriculum-vitae/commit/40ef66255614d60c885609a96533bb031989083e))
+* improve Technical Skills ([4e7eadc](https://github.com/FilippoVissani/curriculum-vitae/commit/4e7eadc7785887b8f0692c81261b18e381df9c4e))
+
+
+### Build and continuous integration
+
+* change job name ([3c5aa91](https://github.com/FilippoVissani/curriculum-vitae/commit/3c5aa91c68b26e91e8e2b15e7107441e58435aba))
+* fix workflow ([7dd1185](https://github.com/FilippoVissani/curriculum-vitae/commit/7dd1185ce534254b1f49917257783fd94bd040ff))
+* set Semantic Release to upload the correct pdf file ([05b5af9](https://github.com/FilippoVissani/curriculum-vitae/commit/05b5af984a298ba0f3e2f652bb5577255492d726))
+
+
+### Refactoring
+
+* switch template ([5d9f1c3](https://github.com/FilippoVissani/curriculum-vitae/commit/5d9f1c35124a5d6b432c95461df430b05076d0db))
+
 ## 1.0.0 (2023-09-29)
 
 
