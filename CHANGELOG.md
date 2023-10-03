@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/FilippoVissani/curriculum-vitae/compare/2.0.2...2.0.3) (2023-10-03)
+
+
+### Bug Fixes
+
+* fix birth date ([0fb93de](https://github.com/FilippoVissani/curriculum-vitae/commit/0fb93defe5456d456a0226922a142aa6a78e4fcb))
+
 ## [2.0.2](https://github.com/FilippoVissani/curriculum-vitae/compare/2.0.1...2.0.2) (2023-10-02)
 
 
