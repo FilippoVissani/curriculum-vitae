@@ -1,3 +1,19 @@
+## [2.1.0](https://github.com/FilippoVissani/curriculum-vitae/compare/2.0.3...2.1.0) (2023-11-20)
+
+
+### Features
+
+* improve technical skills ([1cd2c92](https://github.com/FilippoVissani/curriculum-vitae/commit/1cd2c924f34079754d1b1150829315ea7250d280))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.67 ([5c958ac](https://github.com/FilippoVissani/curriculum-vitae/commit/5c958ac6850080be4928f65bb4975c76bc264c62))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.68 ([c2958b5](https://github.com/FilippoVissani/curriculum-vitae/commit/c2958b561098a4a4cb325d86dd50d2ab7c689ee8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.75 ([f2409d4](https://github.com/FilippoVissani/curriculum-vitae/commit/f2409d47eddbe43ba68f2925e1056f6bd8897227))
+* **deps:** update node.js to 18.18 ([b6086e4](https://github.com/FilippoVissani/curriculum-vitae/commit/b6086e4de93908e2219a3954590dac706fc1cd0a))
+* **deps:** update node.js to v20 ([60044af](https://github.com/FilippoVissani/curriculum-vitae/commit/60044af292cc2e40f052d3cfe33c79bf88c5759b))
+
 ## [2.0.3](https://github.com/FilippoVissani/curriculum-vitae/compare/2.0.2...2.0.3) (2023-10-03)
 
 
