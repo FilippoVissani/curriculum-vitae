@@ -1,3 +1,10 @@
+## [2.2.0](https://github.com/FilippoVissani/curriculum-vitae/compare/2.1.0...2.2.0) (2023-11-20)
+
+
+### Features
+
+* add internship in Employment section ([13e5328](https://github.com/FilippoVissani/curriculum-vitae/commit/13e5328d45f5739470bf1f655c93020afa5332c3))
+
 ## [2.1.0](https://github.com/FilippoVissani/curriculum-vitae/compare/2.0.3...2.1.0) (2023-11-20)
 
 
