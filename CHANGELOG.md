@@ -1,3 +1,10 @@
+## [2.3.0](https://github.com/FilippoVissani/curriculum-vitae/compare/2.2.0...2.3.0) (2023-11-22)
+
+
+### Features
+
+* add data related to Master of Engineering ([95cc303](https://github.com/FilippoVissani/curriculum-vitae/commit/95cc3038c8c1b87839e3031ef8ca9dead7549428))
+
 ## [2.2.0](https://github.com/FilippoVissani/curriculum-vitae/compare/2.1.0...2.2.0) (2023-11-20)
 
 
