@@ -1,3 +1,21 @@
+## [2.3.2](https://github.com/FilippoVissani/curriculum-vitae/compare/2.3.1...2.3.2) (2024-03-15)
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.85 ([7878e3c](https://github.com/FilippoVissani/curriculum-vitae/commit/7878e3c59608a01b975980a384b7c028930baeaa))
+* **deps:** update node.js to 20.11 ([56c88d9](https://github.com/FilippoVissani/curriculum-vitae/commit/56c88d9406244a666d7ab4d3520f9278cc6ca603))
+
+
+### Documentation
+
+* update Education ([689642e](https://github.com/FilippoVissani/curriculum-vitae/commit/689642e852293f4cebcdb9e47b40979882ee78ef))
+
+
+### Build and continuous integration
+
+* fix release job ([06e60aa](https://github.com/FilippoVissani/curriculum-vitae/commit/06e60aa2d5715e24ebc0d9ae82ba625ac9a0a9f3))
+
 ## [2.3.1](https://github.com/FilippoVissani/curriculum-vitae/compare/2.3.0...2.3.1) (2023-12-07)
 
 
