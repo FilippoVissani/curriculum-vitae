@@ -1,3 +1,14 @@
+## [2.4.0](https://github.com/FilippoVissani/curriculum-vitae/compare/2.3.2...2.4.0) (2024-11-25)
+
+### Features
+
+* add job ([b76e086](https://github.com/FilippoVissani/curriculum-vitae/commit/b76e086af9767ce8201beb97341a1ca732dca239))
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.115 ([b35df69](https://github.com/FilippoVissani/curriculum-vitae/commit/b35df698a91f8b250e35a8832080c893c549562d))
+* **deps:** update node.js to v22 ([e2f7550](https://github.com/FilippoVissani/curriculum-vitae/commit/e2f7550f6844148b48ced9a9e48cddfa459e94bb))
+
 ## [2.3.2](https://github.com/FilippoVissani/curriculum-vitae/compare/2.3.1...2.3.2) (2024-03-15)
 
 
