@@ -17,11 +17,13 @@ jobs:
           token: ${{ secrets.GH_ACCESS_TOKEN }}
           submodules: recursive
           
-      - name: Compile CV
-        uses: xu-cheng/latex-action@v3
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v4
         with:
-          root_file: main.tex
-          args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode -shell-escape
+          typst-version: latest
+          
+      - name: Compile CV
+        run: typst compile main.typ main.pdf
           
       - uses: actions/setup-node@v4
         with:
