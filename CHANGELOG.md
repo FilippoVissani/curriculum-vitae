@@ -1,3 +1,19 @@
+## [3.0.0](https://github.com/FilippoVissani/curriculum-vitae/compare/2.4.0...3.0.0) (2025-11-09)
+
+### ⚠ BREAKING CHANGES
+
+* switch from latex to typst
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.125 ([7b94737](https://github.com/FilippoVissani/curriculum-vitae/commit/7b94737cc3cd5ab5dbdaed8503cba8edb3890f90))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.133 ([b7929f4](https://github.com/FilippoVissani/curriculum-vitae/commit/b7929f4ec7a859f66a07b59c851f8d8207401f74))
+* **deps:** update node.js to 22.14 ([5c59b21](https://github.com/FilippoVissani/curriculum-vitae/commit/5c59b2161ad3f363c42a6babebd055dbc8ff823d))
+
+### Refactoring
+
+* switch from latex to typst ([a2f87b5](https://github.com/FilippoVissani/curriculum-vitae/commit/a2f87b506e61955db970e6615102d76083bc42a9))
+
 ## [2.4.0](https://github.com/FilippoVissani/curriculum-vitae/compare/2.3.2...2.4.0) (2024-11-25)
 
 ### Features
