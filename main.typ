@@ -2,12 +2,13 @@
 
 // Personal information
 #let name = "Filippo Vissani"
+#let birth-date = "21/03/1999"
 #let location = "Via Dante Alighieri 18, Montemarciano (AN), Italy"
 #let email = "filippo.vissani.99@gmail.com"
 #let github = "github.com/FilippoVissani"
 #let linkedin = "linkedin.com/in/filippo-vissani-ba8088244"
 #let phone = "+39 3284686368"
-#let personal-site = ""
+#let personal-site = "https://filippovissani.github.io/"
 
 // Custom photo function to override the basic-resume header
 #let resume-with-photo(
@@ -31,7 +32,7 @@
   body,
 ) = {
   // Sets document metadata
-  set document(author: author, title: author)
+  set document(author: "Filippo Vissani", title: "Resume")
 
   // Document-wide formatting, including font and margins
   set text(
@@ -94,8 +95,9 @@
             }
             
             let items = (
-              contact-item(phone),
               contact-item(location),
+              contact-item(birth-date),
+              contact-item(phone),
               contact-item(email, link-type: "mailto:"),
               contact-item(github, link-type: "https://"),
               contact-item(linkedin, link-type: "https://"),
@@ -210,13 +212,15 @@
 
 == Technical Skills
 
-*Programming Languages:* Java, Scala, Rust, C\#, Kotlin, C, C++, JavaScript, Ruby, PHP, Haskell, Prolog
+*Programming Languages:* Java, Scala, Rust, C\#, Kotlin, C, C++, JavaScript, Ruby, PHP, Haskell, Prolog, Golang, Python
 
-*Developer Tools:* Git, UML, Docker, Gradle, SBT
+*Developer Tools:* Git, UML, Docker, Gradle, SBT, Maven, .NET, GitHub Actions, GitLab CI/CD, Atlassian Suite, CircleCI, Unity
 
-*Technologies/Frameworks:* Akka, Vert.x, Unity3D, JUnit, RxJava, Gson, ExpressJS, NodeJS, AngularJS, Vue.js, React
+*Technologies/Frameworks:* Akka, Vert.x, Unity3D, JUnit, RxJava, Gson, ExpressJS, NodeJS, AngularJS, Vue.js, React, ASP.NET, Entity Framework, ASP.NET Core, LINQ, Spring Boot, Project Reactor, Terraform, Kubernetes, Kafka, MongoDB, MySQL
 
 *Development Methodologies:* Domain-Driven Design, Test-Driven Development, Agile, Scrum
+
+*Cloud Platforms:* AWS, Azure
 
 == Personal Skills
 
@@ -228,7 +232,7 @@
 - Writing: B2
 - Speaking: B2
 
-*Driving License:* AM, A2, B
+*Driving License:* AM, A2, A3, B
 
 == Personal Projects
 
