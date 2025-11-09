@@ -31,7 +31,7 @@ jobs:
       - uses: actions/setup-node@v4
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         with:
-          node-version: '20.11.0'
+          node-version: '22.21.1'
       - name: Release
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         env:
