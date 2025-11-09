@@ -1,3 +1,9 @@
+## [3.1.0](https://github.com/FilippoVissani/curriculum-vitae/compare/3.0.0...3.1.0) (2025-11-09)
+
+### Features
+
+* update personal information and enhance technical skills section ([12fed89](https://github.com/FilippoVissani/curriculum-vitae/commit/12fed8932f757c49e3e6756f4db24490582d8e6c))
+
 ## [3.0.0](https://github.com/FilippoVissani/curriculum-vitae/compare/2.4.0...3.0.0) (2025-11-09)
 
 ### ⚠ BREAKING CHANGES
