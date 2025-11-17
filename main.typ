@@ -222,6 +222,7 @@
 *Database & Storage:* 
 - Microsoft SQL, MongoDB, Redis
 - Azure: SQL Database, Blob Storage, Table Storage
+- AWS: DynamoDB, S3
 - MySQL
 
 *Cloud Platforms & Services:*
