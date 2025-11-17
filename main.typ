@@ -9,6 +9,7 @@
 #let personal-site = "https://filippovissani.github.io/"
 
 // Custom photo function to override the basic-resume header
+// Added show-photo toggle to allow generating photo/no-photo variants
 #let resume-with-photo(
   author: "",
   author-position: left,
@@ -27,6 +28,7 @@
   lang: "en",
   photo-path: "",
   photo-width: 3cm,
+  show-photo: true,
   body,
 ) = {
   // Sets document metadata
@@ -106,7 +108,7 @@
     ],
     [
       // Right side: Photo
-      #if photo-path != "" {
+      #if show-photo and photo-path != "" {
         align(right)[
           #image(photo-path, width: photo-width)
         ]
@@ -135,7 +137,12 @@
   personal-info-position: left,
   photo-path: "picture.jpg",
   photo-width: 2.5cm,
+  show-photo: true,
 )
+
+== Profile
+
+Computer Science and Engineering graduate with a Master's degree from the University of Bologna, experienced in software development, cloud platforms, and modern development methodologies. Skilled in a wide range of programming languages and frameworks, with hands-on experience in digital twins, field calculus, and simulation. Strong foundation in both theoretical and practical aspects of computer science, with a proven ability to adapt and learn new technologies.
 
 == Employment History
 
@@ -145,34 +152,16 @@
   location: "Turin (TO), Italy",
   dates: dates-helper(start-date: "2024", end-date: "Present"),
 )
+- Designed and delivered microservices (C\#, Entity Framework, Java, Spring Boot, Golang, Fiber) to expose APIs.
+- Designed and delivered event-driven microservices (Golang, C\#, Kafka, Event Hub, Service Bus) to manage appliance telemetry.
+- Introduced reusable Terraform modules reducing IaC duplication and provisioning time.
+- Designed and delivered CI/CD pipelines (CircleCI, GitHub Actions) automating build, test, release and deployment processes.
 
-#work(
-  title: "Intern",
-  company: "University of Bologna",
-  location: "Cesena (FC), Italy",
-  dates: "2021",
-)
-
-#work(
-  title: "Intern",
-  company: "Bit Service",
-  location: "Camerano (AN), Italy",
-  dates: "2017",
-)
-
-#work(
-  title: "Intern",
-  company: "Gruppo Editoriale Raffaello",
-  location: "Monte San Vito (AN), Italy",
-  dates: "2017",
-)
-
-#work(
-  title: "Intern",
-  company: "Iride Progetti",
-  location: "Senigallia (AN), Italy",
-  dates: "2016",
-)
+== Internships (Summary)
+- University of Bologna (2021)
+- Bit Service (2017)
+- Gruppo Editoriale Raffaello (2017)
+- Iride Progetti (2016)
 
 == Education
 
@@ -208,56 +197,29 @@
 
 == Technical Skills
 
-*Programming Languages & Frameworks:* 
-- Java, Spring Boot (REST APIs, microservices, unit/integration testing)
-- C\# (backend development, microservices on Azure), Entity Framework, ASP.NET Core
-- Golang (microservices on AWS and Azure)
-- Python (E2E testing, appliance simulators)
-- Scala, Rust, Kotlin, JavaScript, C, C++, Ruby, PHP, Haskell, Prolog
+*Primary Languages/Frameworks:* Java, Kotlin, Scala, C\#/.NET, Go, Spring Boot, Entity Framework
 
-*Database & Storage:* 
-- Microsoft SQL, MongoDB, Redis
-- Azure: SQL Database, Blob Storage, Table Storage
-- AWS: DynamoDB, S3
-- MySQL
+*Cloud:* AWS (Lambda, API Gateway, Elastic Kubernetes Service, Managed Streaming for Kafka, DynamoDB, S3, Secrets Manager, Parameter Store), Azure (Functions, Container Apps, Event Hub, Service Bus, IoT Hub, App Service)
 
-*Cloud Platforms & Services:*
-- *AWS:* Lambda, IAM, API Gateway, EKS, MSK (Managed Kafka), Secret Manager, Parameter Store
-- *Azure:* Functions (HTTP/Event Hub/Service Bus triggers), App Service, Container Apps, Event Hub, IoT Hub, Service Bus, Redis Cache
+*Infra & DevOps:* Terraform, Docker, Kubernetes, GitHub Actions, Azure DevOps, CircleCI
 
-*Infrastructure & DevOps:*
-- Terraform (Infrastructure as Code on AWS and Azure)
-- Docker, Kubernetes
-- Git, GitHub Actions, Azure DevOps, Bitbucket, CircleCI
+*Data & Messaging:* SQL Server, MongoDB, Redis, DynamoDB, Kafka
 
-*Security & Configuration Management:*
-- HashiCorp Vault, AWS Secret Manager, AWS Parameter Store
-- SonarCloud, Checkmarx (code quality and vulnerability analysis)
-- GitHub Vulnerability Scanner
+*Observability & Quality:* Datadog, SonarCloud, Checkmarx, Vault (HashiCorp)
 
-*Observability & Monitoring:*
-- Datadog (log analysis, monitoring)
+*Secondary Languages/Frameworks:* Rust, JavaScript/Node, RxJava, Project Reactor, Akka, Vert.x, Python
 
-*Development Tools & Frameworks:*
-- Maven, Gradle, SBT, .NET, UML, Unity
-- Akka, Vert.x, JUnit, RxJava, Project Reactor
-- ExpressJS, NodeJS, AngularJS, Vue.js, React
+*Web & Frontend:* ExpressJS, React, Vue.js, AngularJS
 
-*Development Methodologies & Project Management:*
-- Domain-Driven Design, Test-Driven Development, Agile, Scrum
-- Jira, GitHub Issues/Projects, Confluence
+*Methodologies:* Domain-Driven Design, Test-Driven Development, Agile/Scrum
 
 == Personal Skills
 
-*Mother tongue:* Italian
+*Languages:* Italian (Native), English (B2)
 
-*English:*
-- Listening: B2
-- Reading: B2  
-- Writing: B2
-- Speaking: B2
+*Soft Skills:* Collaborative, proactive ownership, clear written communication.
 
-*Driving License:* AM, A2, A3, B
+*Other:* Driving License (AM, A2, A3, B)
 
 == Personal Projects
 
