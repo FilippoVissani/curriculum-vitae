@@ -226,7 +226,7 @@
 - MySQL
 
 *Cloud Platforms & Services:*
-- *AWS:* IAM, API Gateway, EKS, MSK (Managed Kafka), Secret Manager, Parameter Store
+- *AWS:* Lambda, IAM, API Gateway, EKS, MSK (Managed Kafka), Secret Manager, Parameter Store
 - *Azure:* Functions (HTTP/Event Hub/Service Bus triggers), App Service, Container Apps, Event Hub, IoT Hub, Service Bus, Redis Cache
 
 *Infrastructure & DevOps:*
