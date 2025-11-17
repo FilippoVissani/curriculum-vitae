@@ -142,7 +142,7 @@
 
 == Profile
 
-Computer Science and Engineering graduate with a Master's degree from the University of Bologna, experienced in software development, cloud platforms, and modern development methodologies. Skilled in a wide range of programming languages and frameworks, with hands-on experience in digital twins, field calculus, and simulation. Strong foundation in both theoretical and practical aspects of computer science, with a proven ability to adapt and learn new technologies.
+Backend & Cloud Engineer focused on designing and delivering Golang microservices and event-driven platforms across AWS & Azure. Led the build of telemetry ingestion and API services (Go, C\#, Java, Kafka, Event Hub, Service Bus) and created reusable Terraform modules and automated CI/CD pipelines (CircleCI, GitHub Actions) to accelerate delivery. Blend strong computer science fundamentals (M.Sc. University of Bologna; research in reactive aggregate programming).
 
 == Employment History
 
