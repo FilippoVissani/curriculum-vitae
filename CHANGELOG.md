@@ -1,3 +1,26 @@
+## [3.2.0](https://github.com/FilippoVissani/curriculum-vitae/compare/3.1.0...3.2.0) (2025-11-17)
+
+### Features
+
+* reorganize and expand technical skills section, add summary ([cdc82e9](https://github.com/FilippoVissani/curriculum-vitae/commit/cdc82e9ddff452e96e8904c4420822d93241196b))
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.154 ([99050dd](https://github.com/FilippoVissani/curriculum-vitae/commit/99050ddc699369fa4637a010138ea0f6064a993e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.155 ([#33](https://github.com/FilippoVissani/curriculum-vitae/issues/33)) ([ef6c960](https://github.com/FilippoVissani/curriculum-vitae/commit/ef6c960663bc080596c11cde0a0514ca9c57ff9c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.156 ([#34](https://github.com/FilippoVissani/curriculum-vitae/issues/34)) ([d3c8669](https://github.com/FilippoVissani/curriculum-vitae/commit/d3c86699d6d0a3c12dd5545c80577fc9d9570e45))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v5 ([b1b9359](https://github.com/FilippoVissani/curriculum-vitae/commit/b1b93592ee3bd90ed674338c999b222993bb2a83))
+* **deps:** update actions/setup-node action to v6 ([8312746](https://github.com/FilippoVissani/curriculum-vitae/commit/8312746357c495b7230bc500c2d5d2c71c4bc508))
+* **deps:** update dependency node to v24.11.1 ([#32](https://github.com/FilippoVissani/curriculum-vitae/issues/32)) ([4cb2c21](https://github.com/FilippoVissani/curriculum-vitae/commit/4cb2c210dba7147d81b9e7256b1377135d20614e))
+* **deps:** update node.js to v24 ([2d167a6](https://github.com/FilippoVissani/curriculum-vitae/commit/2d167a609fe741364cb571715d51df649fed9249))
+
+### General maintenance
+
+* remove unused file ([cc521f7](https://github.com/FilippoVissani/curriculum-vitae/commit/cc521f758168d85e78e0baf72752d7746167c375))
+
 ## [3.1.0](https://github.com/FilippoVissani/curriculum-vitae/compare/3.0.0...3.1.0) (2025-11-09)
 
 ### Features
