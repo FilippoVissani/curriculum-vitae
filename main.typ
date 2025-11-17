@@ -212,15 +212,43 @@
 
 == Technical Skills
 
-*Programming Languages:* Java, Scala, Rust, C\#, Kotlin, C, C++, JavaScript, Ruby, PHP, Haskell, Prolog, Golang, Python
+*Programming Languages & Frameworks:* 
+- Java, Spring Boot (REST APIs, microservices, unit/integration testing)
+- C\# (backend development, microservices on Azure), Entity Framework, ASP.NET Core
+- Golang (microservices on AWS and Azure)
+- Python (E2E testing, appliance simulators)
+- Scala, Rust, Kotlin, JavaScript, C, C++, Ruby, PHP, Haskell, Prolog
 
-*Developer Tools:* Git, UML, Docker, Gradle, SBT, Maven, .NET, GitHub Actions, GitLab CI/CD, Atlassian Suite, CircleCI, Unity
+*Database & Storage:* 
+- Microsoft SQL, MongoDB, Redis
+- Azure: SQL Database, Blob Storage, Table Storage
+- MySQL
 
-*Technologies/Frameworks:* Akka, Vert.x, Unity3D, JUnit, RxJava, Gson, ExpressJS, NodeJS, AngularJS, Vue.js, React, ASP.NET, Entity Framework, ASP.NET Core, LINQ, Spring Boot, Project Reactor, Terraform, Kubernetes, Kafka, MongoDB, MySQL
+*Cloud Platforms & Services:*
+- *AWS:* IAM, API Gateway, EKS, MSK (Managed Kafka), Secret Manager, Parameter Store
+- *Azure:* Functions (HTTP/Event Hub/Service Bus triggers), App Service, Container Apps, Event Hub, IoT Hub, Service Bus, Redis Cache
 
-*Development Methodologies:* Domain-Driven Design, Test-Driven Development, Agile, Scrum
+*Infrastructure & DevOps:*
+- Terraform (Infrastructure as Code on AWS and Azure)
+- Docker, Kubernetes
+- Git, GitHub Actions, Azure DevOps, Bitbucket, CircleCI
 
-*Cloud Platforms:* AWS, Azure
+*Security & Configuration Management:*
+- HashiCorp Vault, AWS Secret Manager, AWS Parameter Store
+- SonarCloud, Checkmarx (code quality and vulnerability analysis)
+- GitHub Vulnerability Scanner
+
+*Observability & Monitoring:*
+- Datadog (log analysis, monitoring)
+
+*Development Tools & Frameworks:*
+- Maven, Gradle, SBT, .NET, UML, Unity
+- Akka, Vert.x, JUnit, RxJava, Project Reactor
+- ExpressJS, NodeJS, AngularJS, Vue.js, React
+
+*Development Methodologies & Project Management:*
+- Domain-Driven Design, Test-Driven Development, Agile, Scrum
+- Jira, GitHub Issues/Projects, Confluence
 
 == Personal Skills
 
