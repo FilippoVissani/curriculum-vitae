@@ -2,12 +2,10 @@
 
 // Personal information
 #let name = "Filippo Vissani"
-#let birth-date = "21/03/1999"
-#let location = "Via Dante Alighieri 18, Montemarciano (AN), Italy"
+#let location = "Montemarciano (AN), Italy"
 #let email = "filippo.vissani.99@gmail.com"
 #let github = "github.com/FilippoVissani"
 #let linkedin = "linkedin.com/in/filippo-vissani-ba8088244"
-#let phone = "+39 3284686368"
 #let personal-site = "https://filippovissani.github.io/"
 
 // Custom photo function to override the basic-resume header
@@ -96,8 +94,6 @@
             
             let items = (
               contact-item(location),
-              contact-item(birth-date),
-              contact-item(phone),
               contact-item(email, link-type: "mailto:"),
               contact-item(github, link-type: "https://"),
               contact-item(linkedin, link-type: "https://"),
@@ -130,7 +126,7 @@
   email: email,
   github: github,
   linkedin: linkedin,
-  phone: phone,
+  phone: "",
   personal-site: personal-site,
   accent-color: "#000000",
   font: "New Computer Modern",
