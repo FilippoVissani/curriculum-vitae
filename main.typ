@@ -2,15 +2,14 @@
 
 // Personal information
 #let name = "Filippo Vissani"
-#let birth-date = "21/03/1999"
-#let location = "Via Dante Alighieri 18, Montemarciano (AN), Italy"
+#let location = "Montemarciano (AN), Italy"
 #let email = "filippo.vissani.99@gmail.com"
 #let github = "github.com/FilippoVissani"
 #let linkedin = "linkedin.com/in/filippo-vissani-ba8088244"
-#let phone = "+39 3284686368"
 #let personal-site = "https://filippovissani.github.io/"
 
 // Custom photo function to override the basic-resume header
+// Added show-photo toggle to allow generating photo/no-photo variants
 #let resume-with-photo(
   author: "",
   author-position: left,
@@ -29,6 +28,7 @@
   lang: "en",
   photo-path: "",
   photo-width: 3cm,
+  show-photo: true,
   body,
 ) = {
   // Sets document metadata
@@ -96,8 +96,6 @@
             
             let items = (
               contact-item(location),
-              contact-item(birth-date),
-              contact-item(phone),
               contact-item(email, link-type: "mailto:"),
               contact-item(github, link-type: "https://"),
               contact-item(linkedin, link-type: "https://"),
@@ -110,7 +108,7 @@
     ],
     [
       // Right side: Photo
-      #if photo-path != "" {
+      #if show-photo and photo-path != "" {
         align(right)[
           #image(photo-path, width: photo-width)
         ]
@@ -130,7 +128,7 @@
   email: email,
   github: github,
   linkedin: linkedin,
-  phone: phone,
+  phone: "",
   personal-site: personal-site,
   accent-color: "#000000",
   font: "New Computer Modern",
@@ -139,7 +137,12 @@
   personal-info-position: left,
   photo-path: "picture.jpg",
   photo-width: 2.5cm,
+  show-photo: true,
 )
+
+== Profile
+
+Backend & Cloud Engineer focused on designing and delivering Golang microservices and event-driven platforms across AWS & Azure. Led the build of telemetry ingestion and API services (Go, C\#, Java, Kafka, Event Hub, Service Bus) and created reusable Terraform modules and automated CI/CD pipelines (CircleCI, GitHub Actions) to accelerate delivery. Blend strong computer science fundamentals (M.Sc. University of Bologna; research in reactive aggregate programming).
 
 == Employment History
 
@@ -149,34 +152,16 @@
   location: "Turin (TO), Italy",
   dates: dates-helper(start-date: "2024", end-date: "Present"),
 )
+- Designed and delivered microservices (C\#, Entity Framework, Java, Spring Boot, Golang, Fiber) to expose APIs.
+- Designed and delivered event-driven microservices (Golang, C\#, Kafka, Event Hub, Service Bus) to manage appliance telemetry.
+- Introduced reusable Terraform modules reducing IaC duplication and provisioning time.
+- Designed and delivered CI/CD pipelines (CircleCI, GitHub Actions) automating build, test, release and deployment processes.
 
-#work(
-  title: "Intern",
-  company: "University of Bologna",
-  location: "Cesena (FC), Italy",
-  dates: "2021",
-)
-
-#work(
-  title: "Intern",
-  company: "Bit Service",
-  location: "Camerano (AN), Italy",
-  dates: "2017",
-)
-
-#work(
-  title: "Intern",
-  company: "Gruppo Editoriale Raffaello",
-  location: "Monte San Vito (AN), Italy",
-  dates: "2017",
-)
-
-#work(
-  title: "Intern",
-  company: "Iride Progetti",
-  location: "Senigallia (AN), Italy",
-  dates: "2016",
-)
+== Internships (Summary)
+- University of Bologna (2021)
+- Bit Service (2017)
+- Gruppo Editoriale Raffaello (2017)
+- Iride Progetti (2016)
 
 == Education
 
@@ -212,27 +197,29 @@
 
 == Technical Skills
 
-*Programming Languages:* Java, Scala, Rust, C\#, Kotlin, C, C++, JavaScript, Ruby, PHP, Haskell, Prolog, Golang, Python
+*Primary Languages/Frameworks:* Java, Kotlin, Scala, C\#/.NET, Go, Spring Boot, Entity Framework
 
-*Developer Tools:* Git, UML, Docker, Gradle, SBT, Maven, .NET, GitHub Actions, GitLab CI/CD, Atlassian Suite, CircleCI, Unity
+*Cloud:* AWS (Lambda, API Gateway, Elastic Kubernetes Service, Managed Streaming for Kafka, DynamoDB, S3, Secrets Manager, Parameter Store), Azure (Functions, Container Apps, Event Hub, Service Bus, IoT Hub, App Service)
 
-*Technologies/Frameworks:* Akka, Vert.x, Unity3D, JUnit, RxJava, Gson, ExpressJS, NodeJS, AngularJS, Vue.js, React, ASP.NET, Entity Framework, ASP.NET Core, LINQ, Spring Boot, Project Reactor, Terraform, Kubernetes, Kafka, MongoDB, MySQL
+*Infra & DevOps:* Terraform, Docker, Kubernetes, GitHub Actions, Azure DevOps, CircleCI
 
-*Development Methodologies:* Domain-Driven Design, Test-Driven Development, Agile, Scrum
+*Data & Messaging:* SQL Server, MongoDB, Redis, DynamoDB, Kafka
 
-*Cloud Platforms:* AWS, Azure
+*Observability & Quality:* Datadog, SonarCloud, Checkmarx, Vault (HashiCorp)
+
+*Secondary Languages/Frameworks:* Rust, JavaScript/Node, RxJava, Project Reactor, Akka, Vert.x, Python
+
+*Web & Frontend:* ExpressJS, React, Vue.js, AngularJS
+
+*Methodologies:* Domain-Driven Design, Test-Driven Development, Agile/Scrum
 
 == Personal Skills
 
-*Mother tongue:* Italian
+*Languages:* Italian (Native), English (B2)
 
-*English:*
-- Listening: B2
-- Reading: B2  
-- Writing: B2
-- Speaking: B2
+*Soft Skills:* Collaborative, proactive ownership, clear written communication.
 
-*Driving License:* AM, A2, A3, B
+*Other:* Driving License (AM, A2, A3, B)
 
 == Personal Projects
 
