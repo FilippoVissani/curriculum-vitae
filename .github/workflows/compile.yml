@@ -23,7 +23,7 @@ jobs:
           submodules: recursive
           
       - name: Setup Typst
-        uses: typst-community/setup-typst@v4
+        uses: typst-community/setup-typst@v5
         with:
           typst-version: latest
           
