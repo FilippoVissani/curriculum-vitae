@@ -1,3 +1,32 @@
+## [3.2.1](https://github.com/FilippoVissani/curriculum-vitae/compare/3.2.0...3.2.1) (2026-07-14)
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.157 ([#36](https://github.com/FilippoVissani/curriculum-vitae/issues/36)) ([0016634](https://github.com/FilippoVissani/curriculum-vitae/commit/0016634cd4b2c77ed6ba1f271ee797b881f22836))
+* **deps:** update node.js to 24.12 ([#38](https://github.com/FilippoVissani/curriculum-vitae/issues/38)) ([c243239](https://github.com/FilippoVissani/curriculum-vitae/commit/c243239fd8d1280cff7ad6ab9d747a5b27115ae4))
+* **deps:** update node.js to 24.15 ([#44](https://github.com/FilippoVissani/curriculum-vitae/issues/44)) ([3b64746](https://github.com/FilippoVissani/curriculum-vitae/commit/3b6474688536c258622b4849152a594d85bf5e5f))
+* **deps:** update node.js to 24.16 ([#46](https://github.com/FilippoVissani/curriculum-vitae/issues/46)) ([d48a927](https://github.com/FilippoVissani/curriculum-vitae/commit/d48a927387299b229ec4f1622db73f204d119daa))
+* **deps:** update node.js to 24.17 ([#48](https://github.com/FilippoVissani/curriculum-vitae/issues/48)) ([dd19ca7](https://github.com/FilippoVissani/curriculum-vitae/commit/dd19ca7e3758d537c66271d9bade9dea068c06a1))
+* **deps:** update node.js to 24.18 ([#51](https://github.com/FilippoVissani/curriculum-vitae/issues/51)) ([0c39936](https://github.com/FilippoVissani/curriculum-vitae/commit/0c39936f82a5828d2ba998ee9e3162a26dd8b0a9))
+
+### Documentation
+
+* update profile and employment history details ([e76ca1e](https://github.com/FilippoVissani/curriculum-vitae/commit/e76ca1e771a4980359a3ff5926aaa02d7f7ddf54))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v6 ([#37](https://github.com/FilippoVissani/curriculum-vitae/issues/37)) ([1af457b](https://github.com/FilippoVissani/curriculum-vitae/commit/1af457b39545563b88734b005297e70bbe5b49ba))
+* **deps:** update actions/checkout action to v7 ([#49](https://github.com/FilippoVissani/curriculum-vitae/issues/49)) ([8c7fbce](https://github.com/FilippoVissani/curriculum-vitae/commit/8c7fbceaf65867ecdc569d9564138b47740f0baf))
+* **deps:** update dependency node to v24.12.0 ([#39](https://github.com/FilippoVissani/curriculum-vitae/issues/39)) ([4f3e51b](https://github.com/FilippoVissani/curriculum-vitae/commit/4f3e51baca12f844b7e76d603f754226b7b190d9))
+* **deps:** update dependency node to v24.14.1 ([#43](https://github.com/FilippoVissani/curriculum-vitae/issues/43)) ([35b2dd0](https://github.com/FilippoVissani/curriculum-vitae/commit/35b2dd0371f78d498dc47f51d3ef1107bd8a26cc))
+* **deps:** update dependency node to v24.15.0 ([#45](https://github.com/FilippoVissani/curriculum-vitae/issues/45)) ([ed73395](https://github.com/FilippoVissani/curriculum-vitae/commit/ed733951bfbb65558cf243c2e8146e58dc5becec))
+* **deps:** update dependency node to v24.16.0 ([#47](https://github.com/FilippoVissani/curriculum-vitae/issues/47)) ([970fa50](https://github.com/FilippoVissani/curriculum-vitae/commit/970fa50ba75334f20ae1c75840f6bb71c40dfee0))
+* **deps:** update dependency node to v24.17.0 ([#50](https://github.com/FilippoVissani/curriculum-vitae/issues/50)) ([9e1a3eb](https://github.com/FilippoVissani/curriculum-vitae/commit/9e1a3eba46f63c6094decd7efe0e04548bc17e01))
+* **deps:** update dependency node to v24.18.0 ([#52](https://github.com/FilippoVissani/curriculum-vitae/issues/52)) ([8063018](https://github.com/FilippoVissani/curriculum-vitae/commit/8063018fdae56ad61803d5c94985d26d85f515c1))
+* **deps:** update node.js ([736e8a0](https://github.com/FilippoVissani/curriculum-vitae/commit/736e8a0570d44dfe38fba4e0079f041132a5e9b7))
+* **deps:** update typst-community/setup-typst action to v5 ([#42](https://github.com/FilippoVissani/curriculum-vitae/issues/42)) ([07899b1](https://github.com/FilippoVissani/curriculum-vitae/commit/07899b1b8e2b4978627fd8a77cd6abf5381c3a7f))
+* fix checkout step ([3538f5b](https://github.com/FilippoVissani/curriculum-vitae/commit/3538f5be36076e30a75b15037b2fcaa352952de8))
+
 ## [3.2.0](https://github.com/FilippoVissani/curriculum-vitae/compare/3.1.0...3.2.0) (2025-11-17)
 
 ### Features
