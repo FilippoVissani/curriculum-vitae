@@ -142,7 +142,13 @@
 
 == Profile
 
-Backend & Cloud Engineer focused on designing and delivering Golang microservices and event-driven platforms across AWS & Azure. Led the build of telemetry ingestion and API services (Go, C\#, Java, Kafka, Event Hub, Service Bus) and created reusable Terraform modules and automated CI/CD pipelines (CircleCI, GitHub Actions) to accelerate delivery. Blend strong computer science fundamentals (M.Sc. University of Bologna; research in reactive aggregate programming).
+Backend & infrastructure engineer specializing in cloud-native microservices on Azure and AWS. 
+Build event-driven and distributed systems using C\#, Go, and Java with a focus on resiliency, observability,  and  performance.  
+ 
+Master's Thesis (Feasibility of Reactive Aggregate Programming via Kotlin Flows): Prototyped a 
+Kotlin  Flows–based  reactive  execution  model  and  DSL  (Domain  Specific  Language)  for  self-
+organizing  multi-agent  systems,  comparing  scheduling  flexibility  and  developer  ergonomics 
+against traditional round-based (proactive) approaches (FRASP-inspired).
 
 == Employment History
 
@@ -156,9 +162,12 @@ Backend & Cloud Engineer focused on designing and delivering Golang microservice
 - Designed and delivered event-driven microservices (Golang, C\#, Kafka, Event Hub, Service Bus) to manage appliance telemetry.
 - Introduced reusable Terraform modules reducing IaC duplication and provisioning time.
 - Designed and delivered CI/CD pipelines (CircleCI, GitHub Actions) automating build, test, release and deployment processes.
+- Key projects included a real-time telemetry platform for 450K+ globally deployed appliances and microservices for map data ingestion/processing/distribution in robot vacuum cleaners.
+- Reengineered Terraform infrastructure into modular multi-environment, multi-region architecture to improve scalability and portability.
+- Engineered CI/CD pipelines to automate semantic versioning, packaging, release, and multi-environment deployments.
 
 == Internships (Summary)
-- University of Bologna (2021)
+- University of Bologna (2021, Cesena (FC), Italy)
 - Bit Service (2017)
 - Gruppo Editoriale Raffaello (2017)
 - Iride Progetti (2016)
@@ -199,19 +208,23 @@ Backend & Cloud Engineer focused on designing and delivering Golang microservice
 
 *Primary Languages/Frameworks:* Java, Kotlin, Scala, C\#/.NET, Go, Spring Boot, Entity Framework
 
-*Cloud:* AWS (Lambda, API Gateway, Elastic Kubernetes Service, Managed Streaming for Kafka, DynamoDB, S3, Secrets Manager, Parameter Store), Azure (Functions, Container Apps, Event Hub, Service Bus, IoT Hub, App Service)
+*Cloud:* AWS (Lambda, API Gateway, Elastic Kubernetes Service, Managed Streaming for Kafka, DynamoDB, S3, Secrets Manager, Parameter Store), Azure (Functions, Container Apps, Event Hub, Service Bus, IoT Hub, App Service, Azure SQL Database, Blob Storage, Table Storage)
 
 *Infra & DevOps:* Terraform, Docker, Kubernetes, GitHub Actions, Azure DevOps, CircleCI
 
 *Data & Messaging:* SQL Server, MongoDB, Redis, DynamoDB, Kafka
 
-*Observability & Quality:* Datadog, SonarCloud, Checkmarx, Vault (HashiCorp)
+*Observability & Quality:* Datadog, SonarCloud, Checkmarx, GitHub Vulnerability Scanner (Dependabot/Security Insights), Vault (HashiCorp)
+
+*Go Tooling & Practices:* goroutines/channels, interface-oriented design, context-aware cancellation, structured error handling, table-driven tests, race detection, golangci-lint, go-critic, gosec
 
 *Secondary Languages/Frameworks:* Rust, JavaScript/Node, RxJava, Project Reactor, Akka, Vert.x, Python
 
 *Web & Frontend:* ExpressJS, React, Vue.js, AngularJS
 
 *Methodologies:* Domain-Driven Design, Test-Driven Development, Agile/Scrum
+
+*Delivery & Collaboration:* Jira, Confluence, GitHub Issues/Projects, Bitbucket
 
 == Personal Skills
 
