@@ -1,3 +1,13 @@
+## [3.2.2](https://github.com/FilippoVissani/curriculum-vitae/compare/3.2.1...3.2.2) (2026-07-15)
+
+### Documentation
+
+* refine employment history and remove personal projects section ([78518fc](https://github.com/FilippoVissani/curriculum-vitae/commit/78518fca07704a711182fb16e1efe2e793bfe500))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v7 ([#54](https://github.com/FilippoVissani/curriculum-vitae/issues/54)) ([4c3062c](https://github.com/FilippoVissani/curriculum-vitae/commit/4c3062c92306472dac3cbc4013bab45aa1bbc737))
+
 ## [3.2.1](https://github.com/FilippoVissani/curriculum-vitae/compare/3.2.0...3.2.1) (2026-07-14)
 
 ### Dependency updates
