@@ -160,11 +160,9 @@ against traditional round-based (proactive) approaches (FRASP-inspired).
 )
 - Designed and delivered microservices (C\#, Entity Framework, Java, Spring Boot, Golang, Fiber) to expose APIs.
 - Designed and delivered event-driven microservices (Golang, C\#, Kafka, Event Hub, Service Bus) to manage appliance telemetry.
-- Introduced reusable Terraform modules reducing IaC duplication and provisioning time.
-- Designed and delivered CI/CD pipelines (CircleCI, GitHub Actions) automating build, test, release and deployment processes.
-- Key projects included a real-time telemetry platform for 450K+ globally deployed appliances and microservices for map data ingestion/processing/distribution in robot vacuum cleaners.
-- Reengineered Terraform infrastructure into modular multi-environment, multi-region architecture to improve scalability and portability.
-- Engineered CI/CD pipelines to automate semantic versioning, packaging, release, and multi-environment deployments.
+- Reengineered Terraform infrastructure into reusable modules and a multi-environment, multi-region architecture, reducing IaC duplication, provisioning time, and improving scalability and portability.
+- Designed and delivered CI/CD pipelines (CircleCI, GitHub Actions) to automate build, test, semantic versioning, packaging, release, and multi-environment deployments.
+- Key projects included a multi-environment, multi-region real-time telemetry platform for 450K+ globally deployed appliances and microservices for map data ingestion, processing, and distribution in robot vacuum cleaners and other types of appliances.
 
 == Internships (Summary)
 - University of Bologna (2021, Cesena (FC), Italy)
@@ -233,26 +231,3 @@ against traditional round-based (proactive) approaches (FRASP-inspired).
 *Soft Skills:* Collaborative, proactive ownership, clear written communication.
 
 *Other:* Driving License (AM, A2, A3, B)
-
-== Personal Projects
-
-#project(
-  name: "CityTwin",
-  dates: "2023",
-  url: "github.com/FilippoVissani/CityTwin",
-)
-- Description: Digital twin in the context of the smart city
-
-#project(
-  name: "RustFields",
-  dates: "2023",
-  url: "github.com/RustFields",
-)
-- Description: The goal of this project is to explore different solutions to make the field calculus available on thin devices
-
-#project(
-  name: "galaxy-sim",
-  dates: "2022",
-  url: "github.com/FilippoVissani/PPS-22-galaxy-sim",
-)
-- Description: A simulator of the motion of bodies within a galaxy
