@@ -30,7 +30,7 @@ jobs:
       - name: Compile CV
         run: typst compile main.typ main.pdf
           
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         with:
           node-version: '24.18.0'
