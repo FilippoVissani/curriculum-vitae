@@ -1,4 +1,4 @@
-#import "@preview/basic-resume:0.2.9": *
+#import "@preview/basic-resume:0.2.10": *
 
 // Personal information
 #let name = "Filippo Vissani"
